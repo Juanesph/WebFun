@@ -1,0 +1,27 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+} */
+
+h1{
+    background-color: black;
+    color: white;
+}
+
+h1 span{
+    color: aquamarine;
+}
+
+h2 {
+    background-color: rebeccapurple;
+    color: whitesmoke;
+    text-align: center;
+    font-style: italic;
+}
+
+h3 {
+    background-color: aquamarine;
+    color: rebeccapurple;
+    text-align: right;
+    text-decoration: underline;
+}
