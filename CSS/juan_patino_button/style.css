@@ -1,0 +1,36 @@
+/* .btn-shadow {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+    background-color: blue;
+}
+ */
+
+.btn1 {
+    background-color: white;
+    color: #149C9E;
+    border-color: #149C9E;
+    width: 140px;
+    height: 30px;
+    border-radius: 25px;
+    border: 2px solid;
+}
+
+.btn2 {
+    background-color: #00D1B2;
+    color: white;
+    border-radius: 50%;
+    border: 0px;
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    font-size: 145%;
+}
+
+.btn3 {
+    padding: 10px;
+    box-shadow: 3px 3px black;
+    background-color: #2B78E4;
+    color: white;
+    border: 1px solid black;
+}
