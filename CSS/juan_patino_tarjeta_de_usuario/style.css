@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+
+.mini-logo {
+    max-width: 2%;
+}
+
+.container {
+    height: 250px;
+    width: 600px;
+    margin: 50px auto;
+    align-self: center;
+    border: 3px solid lightgray;
+}
+
+.navbar {
+    background-color: #17A2B8;
+    position: relative;
+    
+}
+
+#user-img img {
+    position: relative;
+    top: 34px;
+    left: 20px;
+}
+
+.info-user {
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+
+.edit-profile {
+    color: #17A2B8;
+    text-decoration: underline;
+}
