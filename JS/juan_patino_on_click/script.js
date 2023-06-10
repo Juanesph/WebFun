@@ -1,6 +1,12 @@
 function change(element) {
-    element.innerText = "Logout"
+    var text = element.innerText;
+    if (text === "Login") { // Cambia "login" a "Login"
+        element.innerText = "Logout";
+    } else {
+        element.innerText = "Login";
+    }
 }
+
 
 function hide(element) {
     element.remove();
