@@ -1,0 +1,78 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Clase fixed-width container que se "autocentrará" a sí misma */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* Btn con shadow */
+.btn3 {
+    padding: 10px;
+    box-shadow: 3px 3px black;
+    background-color: #2B78E4;
+    color: white;
+    border: 1px solid black;
+}
+
+/* row y col de columnas flexibles */
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col {
+    flex-basis: 25%;
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin: 5px 5px;
+}
+
+/* navbar */
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+
+}
+
+.nav-title {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+li {
+    display: flex;
+    margin: 10px;
+}
+
+button {
+    background-color: blue;
+    width: 80px;
+    height: 30px;
+    border: 2px solid black;
+    box-shadow: 5px 5px black;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+
