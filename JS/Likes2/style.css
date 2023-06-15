@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    /* text-align: center; */
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    padding-left: 30px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile {
+    border: 2px solid black;
+}
+
+.feed-msg {
+    border: 2px solid black;
+    margin-bottom: 15px;
+}
+
+.sup {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    margin: 10px 10px;
+}
+
+#btn {
+    background-color: yellow;
+    width: 80px;
+    height: 35px;
+    box-shadow: 2px 2px black;
+}
