@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do App</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+
+            <h1>ToDo APP</h1>
+
+            <div class="create-task-bar">
+                <input type="text" placeholder="Write your tasks">
+                <button onclick="create_task()">Create Task</button>
+            </div>
+
+            <h2>Pending tasks</h2>
+
+            <div class="pending-tasks">
+                <!-- <div class="row">
+                    <span class="taskt-text">Tarea 1</span>
+                    <div>
+                        <button>
+                            <img class="icon" src="img/20407009431543238936-32.png" alt="">Delete
+                        </button>
+                        <button>
+                            <img class="icon" src="img/9772771411530273514-32.png" alt="">Done
+                        </button>
+                    </div>
+                </div> -->
+
+            </div>
+
+            <h2>Done tasks</h2>
+
+            <div class="done-tasks">
+                <table>
+                    <thead>
+                        <tr>
+                            <td class="name-row">Name</td>
+                            <td class="action-row" >Action</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>                            
+                            <td>
+                                <span class="task-text striked">Tarea 1</span></td>
+                            <td><button>
+                                <img class="icon" src="img/20407009431543238936-32.png" alt="">Delete
+                            </button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

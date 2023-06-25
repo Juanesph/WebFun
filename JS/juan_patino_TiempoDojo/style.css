@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav {
+    background-color: #9FC5F8;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
